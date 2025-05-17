@@ -50,3 +50,23 @@
       countdown(n - 1);
     }
     countdown(3);
+
+    //passing Anonymous function to function
+    function a(parm1){
+      console.log(parm1);
+    }
+
+    a(
+      function(){
+        console.log("hello beta ji")
+      }
+    )
+    //return function via a function
+
+    function t(){
+      return function(){
+
+      }
+    }
+
+    console.log(t());
