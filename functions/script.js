@@ -51,9 +51,11 @@
     }
     countdown(3);
 
+// Ability to perform this things are called as First class functions == fucntion first class citizen 
+  
     //passing Anonymous function to function
     function a(parm1){
-      console.log(parm1);
+      console.log(parm1());
     }
 
     a(
@@ -65,8 +67,10 @@
 
     function t(){
       return function(){
+console.log("dance bro");
 
       }
     }
 
-    console.log(t());
+    console.log(t()());
+
