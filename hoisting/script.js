@@ -73,3 +73,9 @@ const shout = () => {
   console.log("Hello from an arrow function");
 };
 shout(); // ✅ now works
+
+
+// var am;
+console.log(am)
+// var am = 100;
+// console.log(am);
